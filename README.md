@@ -45,21 +45,6 @@ To install the Ticket Management System, follow these steps:
   npm run dev # The frontend should now be accessible at http://localhost:5173/.
 ```
 
-## Usage
-  To use the Ticket Management System: 
-
-  1.Open the frontend in your preferred code editor.   
-  2. Modify the source code to fit your needs.
-  3.Run the frontend project.
-  ```shell
-    npm run dev
-```
-  
-  1.Open the backend in your preferred code editor and modify it as needed. 
-  2. Modify the source code to fit your needs.
-  3.Start the project.
-  ```shell
-    python manage.py runserver
-  ```
-  Access the frontend via http://localhost:5173/ and the backend API via http://127.0.0.1:8000/.
+  ## All Set To Go
+    Access the frontend via http://localhost:5173/ and the backend API via http://127.0.0.1:8000/.
 
