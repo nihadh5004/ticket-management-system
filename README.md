@@ -5,10 +5,10 @@ The Ticket Management System is a web application that allows users to create, m
 ## **Installation**
 To install the Ticket Management System, follow these steps:
   
+  ``` shell
+  https://github.com/username/ticket-management-system.git  # Clone the repository: 
+ ```
   ## **Backend (Django)*
-  Clone the repository: 
-  
-  https://github.com/username/ticket-management-system.git
   
   ```shell
   cd ticket_management_system # Navigate to the backend directory
