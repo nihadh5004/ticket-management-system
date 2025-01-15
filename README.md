@@ -17,32 +17,40 @@ To install the Ticket Management System, follow these steps:
 ```
   
   ## **Set up a virtual environment: For Linux/macOS:*
+  ```shell
   python -m venv venv
   source venv/bin/activate
-  For Windows, use venv\Scripts\activate
+  #For Windows, use venv\Scripts\activate
+```
   
   ## **Install dependencies:*
+  ```shell
   pip install -r requirements.txt
-  
+  ```
   ## **Set up the database (SQLite by default):*
+  ```shell
   python manage.py migrate
-  
+  ```
   ## **Create a superuser for admin access:*
+  ```shell
   python manage.py createsuperuser
-  
+  ```
+
   ## **Run the Django development server:*
+  ```shell
   python manage.py runserver
-  
+  ```
   
   
   ## **Frontend (React + TypeScript)*
   
-  ## **Navigate to the frontend directory:*
+  ```shell
+  #Navigate to the frontend directory:
   cd ticket-frontend
-  
-  ## **Install dependencies:*
+  #nstall dependencies:*
   npm install
-  
+  ```
+
   ## **Set the backend API URL:*
   /src
   -/environments
@@ -50,8 +58,10 @@ To install the Ticket Management System, follow these steps:
     default : http://127.0.0.1:8000 (Change if needed)
   
   ## **Run the development server:*
+ ```shell 
   npm run dev
-  The frontend should now be accessible at http://localhost:5173/.
+  # The frontend should now be accessible at http://localhost:5173/.
+```
 
 ## **Usage*
   To use the Ticket Management System: 
