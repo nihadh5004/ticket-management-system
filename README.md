@@ -1,14 +1,14 @@
-Ticket Management System
+## Ticket Management System
 Introduction
 The Ticket Management System is a web application that allows users to create, manage, and resolve support tickets. It provides a backend built with Django REST Framework and a frontend using React (with TypeScript). The system features user authentication, allowing users to manage their own tickets, while admins have access to manage all tickets.
 
-## **Installation**
+## Installation
 To install the Ticket Management System, follow these steps:
   
   ``` shell
   https://github.com/username/ticket-management-system.git  # Clone the repository: 
  ```
-  ## **Backend (Django)*
+  ## Backend (Django)
   
   ```shell
   cd ticket_management_system # Navigate to the backend directory
@@ -24,7 +24,7 @@ To install the Ticket Management System, follow these steps:
   python manage.py runserver # Run the Django development server:
 ```
 
-  ## **Frontend (React + TypeScript)*
+  ## Frontend (React + TypeScript)
   
   ```shell
   #Navigate to the frontend directory:
@@ -34,7 +34,7 @@ To install the Ticket Management System, follow these steps:
   ```
 
   
-  ## **Run the development server:*
+  ## Run the development server:
  ```shell 
   # Change the backend API URL(optional):*
   /src
@@ -45,7 +45,7 @@ To install the Ticket Management System, follow these steps:
   npm run dev # The frontend should now be accessible at http://localhost:5173/.
 ```
 
-## **Usage*
+## Usage
   To use the Ticket Management System: 
   
   Open the frontend in your preferred code editor.   
@@ -60,7 +60,7 @@ To install the Ticket Management System, follow these steps:
 
 
 
-## **Fork the repository.*
+## Fork the repository.
   Create a new branch for your changes.
   Make your changes.
   Write tests to cover your changes.
