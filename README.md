@@ -1,5 +1,5 @@
 ## Ticket Management System
-Introduction
+## Introduction
 The Ticket Management System is a web application that allows users to create, manage, and resolve support tickets. It provides a backend built with Django REST Framework and a frontend using React (with TypeScript). The system features user authentication, allowing users to manage their own tickets, while admins have access to manage all tickets.
 
 ## Installation
