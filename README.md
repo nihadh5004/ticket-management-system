@@ -6,42 +6,24 @@ The Ticket Management System is a web application that allows users to create, m
 To install the Ticket Management System, follow these steps:
   
   ## **Backend (Django)*
-  Clone the repository:
+  Clone the repository: 
   
-  ## **git clone*
   https://github.com/username/ticket-management-system.git
   
-  ## **Navigate to the backend directory:*
   ```shell
-  cd ticket_management_system
-```
-  
-  ## **Set up a virtual environment: For Linux/macOS:*
-  ```shell
+  cd ticket_management_system # Navigate to the backend directory
+
+  #Set up a virtual environment: For Linux/macOS
   python -m venv venv
   source venv/bin/activate
   #For Windows, use venv\Scripts\activate
-```
-  
-  ## **Install dependencies:*
-  ```shell
-  pip install -r requirements.txt
-  ```
-  ## **Set up the database (SQLite by default):*
-  ```shell
-  python manage.py migrate
-  ```
-  ## **Create a superuser for admin access:*
-  ```shell
-  python manage.py createsuperuser
-  ```
 
-  ## **Run the Django development server:*
-  ```shell
-  python manage.py runserver
-  ```
-  
-  
+  pip install -r requirements.txt # Install dependencies:
+  python manage.py migrate # Set up the database (SQLite by default):
+  python manage.py createsuperuser # Create a superuser for admin access:
+  python manage.py runserver # Run the Django development server:
+```
+
   ## **Frontend (React + TypeScript)*
   
   ```shell
@@ -50,17 +32,16 @@ To install the Ticket Management System, follow these steps:
   #nstall dependencies:*
   npm install
   ```
-
   ## **Set the backend API URL:*
   /src
   -/environments
   --/environment.ts
     default : http://127.0.0.1:8000 (Change if needed)
+
   
   ## **Run the development server:*
  ```shell 
-  npm run dev
-  # The frontend should now be accessible at http://localhost:5173/.
+  npm run dev # The frontend should now be accessible at http://localhost:5173/.
 ```
 
 ## **Usage*
