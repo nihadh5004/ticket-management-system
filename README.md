@@ -12,7 +12,9 @@ To install the Ticket Management System, follow these steps:
   https://github.com/username/ticket-management-system.git
   
   ## **Navigate to the backend directory:*
+  ```shell
   cd ticket_management_system
+```
   
   ## **Set up a virtual environment: For Linux/macOS:*
   python -m venv venv
