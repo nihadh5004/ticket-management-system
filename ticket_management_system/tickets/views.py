@@ -71,7 +71,7 @@ class TicketDetailView(APIView):
             ticket = get_object_or_404(Ticket, pk=pk)
             
             # Check if the user has permission to update the ticket
-            if not request.user.has_perm('tickets.update_ticket'):
+            if not request.user.has_perm('tickets.change_ticket'):
                 return Response(forbidden_error("You do not have permission to update this ticket"),status=status.HTTP_403_FORBIDDEN)
 
             serializer = TicketSerializer(ticket, data=request.data, context={'request': request}, partial=True)

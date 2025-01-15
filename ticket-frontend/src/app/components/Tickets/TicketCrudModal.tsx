@@ -67,7 +67,7 @@ const TicketCrudModal: React.FC<TicketCrudModalProps> = ({ onClose, ticket }) =>
       title: data.title,
       description: data.description,
       priority: data.priority,
-      status: isAdmin && status ? status : 'open',
+      status: status ? status : 'open',
       user: isAdmin && data.user ? data.user : undefined, 
     };
     // Check if admin assined user else show error
@@ -168,8 +168,8 @@ const TicketCrudModal: React.FC<TicketCrudModalProps> = ({ onClose, ticket }) =>
           </div>
         )}
 
-        {/* Admin Status (only for admin in editing mode) */}
-        {isAdmin && isEditing && (
+        {/*  (only for editing mode) */}
+        {isEditing && (
           <div className="mb-4">
             <label className="block text-gray-700 font-semibold mb-2">Status</label>
             <select

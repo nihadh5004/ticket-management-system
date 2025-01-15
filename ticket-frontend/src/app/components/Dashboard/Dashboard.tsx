@@ -34,7 +34,6 @@ export default function Dashboard() {
   };
 
   const fetchTickets = async () => {
-    setLoading(true); 
     try {
       const params: any = {};
 
@@ -48,8 +47,6 @@ export default function Dashboard() {
       setTickets(response.data);
     } catch (error) {
       console.error('Error fetching tickets:', error);
-    } finally {
-      setLoading(false); 
     }
   };
 
