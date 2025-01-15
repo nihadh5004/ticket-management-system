@@ -27,9 +27,9 @@ To install the Ticket Management System, follow these steps:
   ## Frontend (React + TypeScript)
   
   ```shell
-  #Navigate to the frontend directory:
+  # Navigate to the frontend directory:
   cd ticket-frontend
-  #nstall dependencies:*
+  # Install dependencies:*
   npm install
   ```
 
@@ -47,27 +47,19 @@ To install the Ticket Management System, follow these steps:
 
 ## Usage
   To use the Ticket Management System: 
+
+  1.Open the frontend in your preferred code editor.   
+  2. Modify the source code to fit your needs.
+  3.Run the frontend project:
+  ```shell
+    npm run dev
+```
   
-  Open the frontend in your preferred code editor.   
-  Run the frontend project:
-  npm run dev
-  
-  Open the backend in your preferred code editor and modify it as needed. 
-  Start the project:
-  python manage.py runserver
-  
+  1.Open the backend in your preferred code editor and modify it as needed. 
+  2. Modify the source code to fit your needs.
+  3.Start the project:
+  ```shell
+    python manage.py runserver
+  ```
   Access the frontend via http://localhost:5173/ and the backend API via http://127.0.0.1:8000/.
 
-
-
-## Fork the repository.
-  Create a new branch for your changes.
-  Make your changes.
-  Write tests to cover your changes.
-  Run the tests to ensure they pass.
-  Commit your changes.
-  Push your changes to your forked repository.
-  Submit a pull request.
-
-Authors and Acknowledgment
-The Ticket Management System was created by Nihadh
