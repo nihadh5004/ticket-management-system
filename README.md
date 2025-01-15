@@ -31,16 +31,12 @@ To install the Ticket Management System, follow these steps:
   cd ticket-frontend
   # Install dependencies:*
   npm install
-  ```
 
-  
-  ## Run the development server:
- ```shell 
   # Change the backend API URL(optional):*
   /src
   -/environments
   --/environment.ts
-    default : http://127.0.0.1:8000 (Change if needed)
+    default : http://127.0.0.1:8000  # (Change if needed)
 
   npm run dev # The frontend should now be accessible at http://localhost:5173/.
 ```
